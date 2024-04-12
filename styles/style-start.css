@@ -196,3 +196,65 @@
 .tres{
     background-color: #FFE48F;
 }
+
+@media screen and (max-width: 880px) {
+
+    .background {
+        height: 90vh;
+    }
+
+    .options-container{
+        display: grid;
+    }
+
+    .option{
+        width: 70%;
+    }
+    .sub-option-container h2,
+    .sub-option-container p{
+        text-align: center;
+    }
+
+    .exchange-objects-container{
+        display: grid;
+    }
+
+    .object-categories-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .objects{
+        padding: 0rem;
+    }
+
+    .category{
+        width: 70%;
+        height: 180px;
+    }
+
+    .exchange-objects-container button{
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+
+    .features-details-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .feature {
+        display: grid;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        padding-right: 0px;
+        font-size: 12px;
+        padding: 0.5rem;
+        width: 30%;
+    }
+
+    .feature-icon {
+        margin: auto;
+        width: 80px;
+    }
+}
