@@ -67,3 +67,74 @@
     display: flex;
     justify-content: center; 
 }
+
+.option{
+    width: 350px;
+    border-radius: 10px;
+}
+
+.sub-option-container{
+    padding: 2rem;
+    text-align: center;
+}
+
+.sub-option-container h2{
+    text-align: left;
+}
+
+.sub-option-container p{
+    text-align: left;
+}
+
+/*Fourth part of the Start Section*/
+
+.separation {
+    width: 270px;
+    height: 5px;
+    background-color: #FFD245;
+    border: none;
+    border-radius: 5px;
+}
+
+.yellow{
+    color: #FFD245;
+}
+
+.exchange-objects-container h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
+}
+
+.category{
+    width: 160px;
+    height: 70vh;
+    transition: 0.55s;
+    object-fit: cover
+}
+
+.category:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.object-categories-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.objects{
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 15px;
+}
+
+.exchange-objects-container{
+    text-align: center;
+    padding-bottom: 3rem;
+}
