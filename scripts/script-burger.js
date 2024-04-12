@@ -6,3 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
         navbar.classList.toggle('active');
     });
 });
+
+function mostrarMensaje() {
+    alert("¡Registro exitoso! Gracias por unirse al cambio :)");
+    return true;    
+}
