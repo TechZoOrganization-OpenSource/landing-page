@@ -1,0 +1,49 @@
+.ongs-container{
+    background-color: #FFD245;
+    padding: 2rem;
+    text-align: center;
+}
+
+.text-ongs-container h1{
+    font-size: 35px;
+    padding-top: 1.5rem;
+}
+
+.text-ongs-container h3{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+/*Carrousel part*/
+
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logos-ongs{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.logos-ongs-slide{
+    display: inline-block;
+    animation: 25s slide infinite linear;
+}
+
+.logos-ongs:hover .logos-ongs-slide{
+    animation-play-state: paused;
+}
+
+@media screen and (max-width: 880px){
+    .text-ongs-container h3{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}

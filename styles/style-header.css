@@ -1,0 +1,166 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.burger-menu {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bnavcontainer{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlist{
+    display: flex;
+    gap: 100px;
+}
+
+.register--mobile{
+    display:none;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+.register{
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 30px;
+    transition: 0.32s;
+    cursor: pointer;
+}
+
+.register:hover{
+    background-color: #69530f;
+    transform: scale(1.05);
+}
+
+.header{
+    background:#FFD245;
+    color: black;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    z-index: 900;
+    box-shadow: 0px 0px 5px 0px #2f2f2f;
+}
+
+.header a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.bnavcontainer{
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+    font-size: 12px;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+}
+
+.navbar ul li{
+    display:inline-block;
+    padding-right: 0.5rem;
+}
+
+.navbar ul li a{
+    display: block;
+    margin: 10px;
+    transition: all 0.4s
+}
+
+.navbar ul li a:hover{
+    color: white;
+    transform: scale(1.11);
+}
+
+@media only screen and (max-width: 1000px) {
+    .burger-menu {
+        display: block;
+    }
+    .register{
+      display: none;
+    }
+    .navbar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 66px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        border-bottom: 2px solid #FFD245;
+        padding: 10px;
+        z-index: 1;
+    }
+    .register--mobile{
+      display:flex;
+      align-items: center;
+      width: min-content;
+      justify-content: center;
+    }
+    .bnavcontainer{
+      justify-content: space-between;
+    }
+  
+    .navbar a {
+        margin-top: 15px;
+        margin-left: 44px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+        transition: 0.32s;
+        display: block;
+    }
+  
+    .navbar.active ul li a:hover{
+      color:#FFD245;
+      transition: 0.23s;
+  }
+    .navbar button {
+      margin-top: 15px;
+    }
+  
+    .navbar.active{
+      display: block;
+      text-align: center;
+      align-items: center;
+    }
+    .navlist{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+}

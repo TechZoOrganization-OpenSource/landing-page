@@ -1,0 +1,260 @@
+.start-container {
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 110vh;
+    display: block;
+}
+
+.start-text-container {
+    position: absolute;
+    top: 35%;
+    color: white;
+    margin: 2rem;
+}
+
+.start-text-container h1{
+    font-size: 40px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #FFD245;
+}
+
+.start-text-container p{
+    padding-bottom: 1rem;
+}
+
+.click-now{
+    border: 0;
+    border-radius: 10px;
+    background:#FFD245;
+    font-family: "Montserrat";
+    padding-left: 4rem;
+    padding-right: 4rem;
+    cursor: pointer;
+    transition: 0.34s;
+}
+
+.click-now:hover{
+    background-color: #fdd767;
+    transform: scale(1.05);
+}
+
+/*Second part of the Start Section*/
+
+.phrase-container{
+    background-color: #000;
+    color: #fff;
+    padding: 2.3rem;
+    text-align: center;
+}
+
+/*Third part of the Start Section*/
+
+.election-container h1{
+    color: #FFD245;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+
+.options-container{
+    display: flex;
+    justify-content: center; 
+}
+
+.option{
+    width: 350px;
+    border-radius: 10px;
+}
+
+.sub-option-container{
+    padding: 2rem;
+    text-align: center;
+}
+
+.sub-option-container h2{
+    text-align: left;
+}
+
+.sub-option-container p{
+    text-align: left;
+}
+
+/*Fourth part of the Start Section*/
+
+.separation {
+    width: 270px;
+    height: 5px;
+    background-color: #FFD245;
+    border: none;
+    border-radius: 5px;
+}
+
+.yellow{
+    color: #FFD245;
+}
+
+.exchange-objects-container h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
+}
+
+.category{
+    width: 160px;
+    height: 70vh;
+    transition: 0.55s;
+    object-fit: cover
+}
+
+.category:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.object-categories-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.objects{
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 15px;
+}
+
+.exchange-objects-container{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+/* Fifth part of the Start Section */
+
+.features-text-container{
+    background-color: #FFD245;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.features-text-container h1{
+    font-size: 35px;
+}
+
+.shadow-text{
+    color: #fff;
+    text-shadow: 0px 2px 5px #636363;
+    font-size: 30px;
+}
+
+.features-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.features-details-container{
+    display: flex;
+    justify-content: center; 
+    padding: 0.5rem;
+}
+
+.feature-icon{
+    width: 120px;
+}
+
+.feature{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #FFD245;
+    margin: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    transition: 0.45s;
+}
+
+.feature:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 15px 0px #FFD245;
+}
+
+.dos{
+    background-color: #FFDC6D;
+}
+
+.tres{
+    background-color: #FFE48F;
+}
+
+@media screen and (max-width: 880px) {
+
+    .background {
+        height: 90vh;
+    }
+
+    .options-container{
+        display: grid;
+    }
+
+    .option{
+        width: 70%;
+    }
+    .sub-option-container h2,
+    .sub-option-container p{
+        text-align: center;
+    }
+
+    .exchange-objects-container{
+        display: grid;
+    }
+
+    .object-categories-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .objects{
+        padding: 0rem;
+    }
+
+    .category{
+        width: 70%;
+        height: 180px;
+    }
+
+    .exchange-objects-container button{
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+
+    .features-details-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .feature {
+        display: grid;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        padding-right: 0px;
+        font-size: 12px;
+        padding: 0.5rem;
+        width: 30%;
+    }
+
+    .feature-icon {
+        margin: auto;
+        width: 80px;
+    }
+}

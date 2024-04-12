@@ -1,0 +1,81 @@
+.contact-us-container{
+    display: flex;
+}
+
+.text-contact-us-container{
+    padding: 3rem;
+}
+
+.text-contact-us h1{
+    font-size: 35px;
+}
+
+.text-contact-us h2{
+    font-size: 30px;
+}
+
+.form-contact-us{
+    padding-top: 2rem;
+}
+
+.form-contact-us p{
+    padding-bottom: 2rem;
+}
+
+.inputs{
+    padding-bottom: 2rem;
+}
+
+.inputs input{
+    padding: 0.8rem;
+    font-family: "Montserrat";
+    border: 2px #b2b2b2 solid;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+
+.send-info{
+    background-color: #FFD245;
+    border: 0;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    cursor: pointer;
+    width: 220px;
+    padding: 1rem;
+    transition: 0.43s;
+}
+
+.send-info:hover{
+    background-color: #000;
+    color: #FFD245;
+}
+
+.image-contact-us{
+    align-content: end;
+    padding-top: 5rem;
+}
+
+.img-contact{
+    width: 400px;
+}
+
+@media screen and (max-width: 880px){
+    .contact-us-container{
+        display: grid;
+    }
+
+    .inputs input{
+        margin-bottom: 4px;
+        width: 300px;
+    }
+
+    .image-contact-us{
+        display: none;
+    }
+
+    .text-contact-us-container{
+        padding: 0rem;
+        margin: 1rem;
+        margin-bottom: 2rem;
+    }
+}
