@@ -1,0 +1,34 @@
+.about-us-photo{
+    width: 50%;
+}
+
+.about-us-container{
+    display: flex;
+}
+
+.text-about-us{
+    padding: 4rem;
+    color: #fff;
+    background-color: #000;
+    text-align: justify;
+}
+
+.text-about-us h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.text-about-us h4{
+    font-size: 20px;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 880px) {
+    .about-us-photo{
+        width: 100%;
+        height: 70vh;
+    }
+    .about-us-container{
+        display: grid;
+    }
+}
