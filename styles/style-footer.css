@@ -61,19 +61,33 @@
     box-shadow: 0px 0px 10px 0px #FFD245;
 }
 
+.footer div, .icons-social-media div{
+    text-align: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 980px){
     .footer-container{
-        display: grid;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .row-footer{
+        flex-direction: column;
+
+    }
+    .column-row{
+        justify-items: center;
+        padding: 0rem;
+        margin: 1rem;
+
     }
 
     .icons-social-media{
         display: flex;
     }
 
-    .column-row{
-        padding: 0rem;
-        margin: 1rem;
-    }
+ 
 
     .copyright{
         margin: 1rem;

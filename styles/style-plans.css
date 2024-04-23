@@ -38,6 +38,7 @@
 
 .one-plan-container:hover{
     box-shadow: 0px 0px 25px 0px #f8cf56;
+    transform: scale(1.05);
 }
 
 .minus{
