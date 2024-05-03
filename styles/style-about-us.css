@@ -41,17 +41,21 @@
     padding: 2rem;
 }
 
-.text-testimony-container{
-    padding: 3rem;
+.card-testimony-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .text-testimony-container h1{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
 }
 
 .card-testimony-row{
     display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -62,6 +66,7 @@
     width: 40%;
     padding-top: 1rem;
     transition: 0.45s;
+   
 }
 
 .card-testimony:hover{
@@ -91,6 +96,7 @@
         margin: 1rem;
     }
 
+
     .card-testimony p{
         padding-left: 0rem;
         padding-right: 0rem;
@@ -101,4 +107,11 @@
         font-size: 15px;
         width: 70%;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .card-testimony-row{
+        flex-wrap: wrap;
+    }
+
 }
