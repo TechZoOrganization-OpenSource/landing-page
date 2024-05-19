@@ -1,5 +1,6 @@
 .start-container {
     position: relative;
+    overflow: hidden;
 
 }
 
@@ -12,7 +13,7 @@
 
 .start-text-container {
     position: absolute;
-    top: 35%;
+    top: 25%;
     color: white;
     margin: 2rem;
 }
