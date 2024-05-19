@@ -15,6 +15,7 @@ body{
 .navbar {
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .bnavcontainer{
@@ -24,12 +25,14 @@ body{
 
 .navlist{
     display: flex;
+    justify-content: center;
     gap: 100px;
+    
 }
 
 .register--mobile{
     display:none;
-  }
+}
 
 html {
     scroll-behavior: smooth;
@@ -73,6 +76,7 @@ html {
 .header a{
     color: #000000;
     text-decoration: none;
+
 }
 
 .bnavcontainer{
@@ -84,12 +88,12 @@ html {
 
 .navbar ul{
     list-style: none;
-    margin: 0;
+    padding: 0;
 }
 
 .navbar ul li{
     display:inline-block;
-    padding-right: 0.5rem;
+
 }
 
 .navbar ul li a{
@@ -116,12 +120,15 @@ html {
         align-items: center;
         position: absolute;
         top: 66px;
-        left: 0;
         background-color: white;
         border-bottom: 2px solid #FFD245;
-        padding: 10px;
+        left:0;
+        right: 0;
         z-index: 1;
+        
     }
+
+
     .register--mobile{
       display:flex;
       align-items: center;
@@ -134,7 +141,6 @@ html {
   
     .navbar a {
         margin-top: 15px;
-        margin-left: 44px;
         text-align: center;
         text-decoration: none;
         color: #333;
@@ -156,10 +162,9 @@ html {
       align-items: center;
     }
     .navlist{
-      display: flex;
-      justify-content: center;
-      align-items: center;
       flex-direction: column;
+    align-items: center;
       gap: 10px;
+
     }
 }
