@@ -23,6 +23,29 @@
     padding-top: 2rem;
 }
 
+.about-the-product{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    flex-direction: column;
+}
+
+.about-the-product iframe{
+    width:60%;
+    height:80%;
+}
+
+.about-the-team{
+    display: flex;
+    justify-content: center;
+}
+
+.about-the-team iframe{
+
+}
+
 @media screen and (max-width: 880px) {
     .about-us-photo{
         width: 100%;
@@ -31,6 +54,11 @@
     .about-us-container{
         display: grid;
     }
+
+    .about-the-product iframe{
+        width:80%;
+        height:80%
+    }    
 }
 
 /*Testimony part*/
@@ -113,5 +141,12 @@
     .card-testimony-row{
         flex-wrap: wrap;
     }
+
+    .about-the-product iframe{
+        width:90%;
+        height:80%
+    }
+
+    
 
 }
